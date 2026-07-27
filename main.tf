@@ -1,5 +1,5 @@
-resource "github_enterprise_security_analysis_settings" "enterprise_security_analysis_settingses" {
-  for_each = var.enterprise_security_analysis_settingses
+resource "github_enterprise_security_analysis_settings" "enterprise_security_analysis_settings" {
+  for_each = var.enterprise_security_analysis_settings
 
   enterprise_slug                                              = each.value.enterprise_slug
   advanced_security_enabled_for_new_repositories               = each.value.advanced_security_enabled_for_new_repositories

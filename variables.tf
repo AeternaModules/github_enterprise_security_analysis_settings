@@ -1,6 +1,6 @@
-variable "enterprise_security_analysis_settingses" {
+variable "enterprise_security_analysis_settings" {
   description = <<EOT
-Map of enterprise_security_analysis_settingses, attributes below
+Map of enterprise_security_analysis_settings, attributes below
 Required:
     - enterprise_slug
 Optional:
